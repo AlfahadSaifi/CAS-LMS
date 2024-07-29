@@ -1,0 +1,19 @@
+
+q
+java:S3740C"/Provide the parametrized type for this generic.(‘Ì‰8–Ø³÷1J$f959c216-7fd9-4618-b56b-c4f05cbb2232
+w
+java:S3740c"/Provide the parametrized type for this generic.(ˆË®Ùÿÿÿÿÿ8úÎØ³÷1J$e2532ec2-cc83-4a5d-a188-c87f140185c1
+ª
+java:S1192"gDefine a constant instead of duplicating this literal "Invalid Eligibility Parameter Provided" 3 times.(Şáğ¡8é¼õ1J$53506f64-2cc5-4f0a-8811-1ef47a767e51
+Â
+java:S1488|"Immediately return this expression instead of assigning it to the temporary variable "eligibilityPolicyParameterDefinitionDTO".(÷ê¸Ë8ª—İ³÷1J$fb6764aa-2b98-48c7-aa24-389717c5c56f
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8½é¼õ1J$63e4f1df-af93-42f5-94f2-adc5f6a98da4
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8½é¼õ1J$51c536a2-cd9c-43a5-92a3-5b2f379e929d
+„
+java:S1126F"AReplace this if-then-else statement by a single return statement.(‡´±æ8²ÏØ³÷1J$bb65a12c-fd63-43df-b038-6f149c0096fd
+„
+java:S1126f"AReplace this if-then-else statement by a single return statement.(‡´±æ8¦•Û³÷1J$65c563b2-215c-4e93-b4b9-37ac77b63233
+o
+java:S1168©"+Return an empty collection instead of null.(¥¹ï8©àÛ³÷1J$1a73aa3a-7bee-4d11-82e0-21630a1d2f25

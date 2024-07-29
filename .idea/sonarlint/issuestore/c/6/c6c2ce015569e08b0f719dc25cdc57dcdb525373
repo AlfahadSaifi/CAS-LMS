@@ -1,0 +1,24 @@
+
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8øŸ˜çö1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ùŸ˜çö1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ùŸ˜çö1
+_
+java:S6813""BRemove this field injection and use constructor injection instead.(êæÄŞ8ùŸ˜çö1
+G	java:S106'"+Replace this use of System.out by a logger.(ˆİ’Ô8§‰Ô—÷1
+G	java:S1062"+Replace this use of System.out by a logger.(¨èŞØ8­‰Ô—÷1
+G	java:S106Z"+Replace this use of System.out by a logger.(ˆÜÜé8×‰Ô—÷1
+]	java:S125X"<This block of commented-out lines of code should be removed.(¢ÿ¾Ñúÿÿÿÿ8ÿŸ˜çö1
+L	java:S106p"+Replace this use of System.out by a logger.(‚Óâêúÿÿÿÿ8ß‰Ô—÷1
+X	java:S125h"<This block of commented-out lines of code should be removed.(€†åó8ÿŸ˜çö1
+X	java:S125l"<This block of commented-out lines of code should be removed.(ä¦Š£8ÿŸ˜çö1
+f
+java:S1128"IRemove this unused import 'org.nucleus.entity.permanent.LoanApplication'.(õ…ŞŸ8™çİ—÷1
+]
+java:S1128"ARemove this unused import 'org.nucleus.utility.enums.LoanStatus'.(³ã¹8™çİ—÷1
+[
+java:S1128"9Remove this unused import 'org.springframework.ui.Model'.(ê†ıÿÿÿÿ8™çİ—÷1
+[
+java:S1128">Remove this unused import 'org.w3c.dom.stylesheets.LinkStyle'.(ÙÌ¾å8™çİ—÷1

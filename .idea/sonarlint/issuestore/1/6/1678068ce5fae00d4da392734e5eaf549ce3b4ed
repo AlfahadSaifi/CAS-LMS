@@ -1,0 +1,9 @@
+
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ˆìò™ö1
+X
+java:S2696!"6Make the enclosing method "static" or remove this set.(•¡Úùÿÿÿÿ8úı¬éö1
+h
+java:S1128"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8éÕ¹éö1
+s
+java:S1128"QRemove this unused import 'org.springframework.web.bind.annotation.ResponseBody'.(•¶¶êøÿÿÿÿ8÷ë¹éö1

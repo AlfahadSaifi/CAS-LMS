@@ -1,0 +1,9 @@
+
+Š
+java:S4144"mUpdate this method so that its implementation is not identical to "getMetaDataForApprovedCreation" on line 9.(Ğ‡ÄÌ8¯€ğÂó1
+U
+java:S1118":Add a private constructor to hide the implicit public one.(µ…”Øøÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(ó›Èÿÿÿÿÿ8½€ğÂó1
+]	java:S125"<This block of commented-out lines of code should be removed.(ó›Èÿÿÿÿÿ8ç€ğÂó1
+]
+java:S1128"ARemove this unused import 'org.nucleus.entity.meta.TempMetaData'.(á®Ë%8è²üÂó1

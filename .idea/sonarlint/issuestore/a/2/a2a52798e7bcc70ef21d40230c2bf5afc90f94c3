@@ -1,0 +1,14 @@
+
+Q	java:S125D"<This block of commented-out lines of code should be removed.(¨‰åƒ
+Q
+java:S1854Š";Remove this useless assignment to local variable "message".(Ú­á
+B
+java:S1481Š",Remove this unused "message" local variable.(Ú­á
+W	java:S125"<This block of commented-out lines of code should be removed.(•Äƒùÿÿÿÿ
+R	java:S125Ç"<This block of commented-out lines of code should be removed.(¹ò®é
+k
+java:S1128"IRemove this unused import 'org.springframework.validation.BindingResult'.(‹¶¸ùÿÿÿÿ8—Â€éö1
+S
+java:S1128"1Remove this unused import 'javax.naming.Binding'.(ÛÆ§“úÿÿÿÿ8—Â€éö1
+U
+java:S1128"3Remove this unused import 'javax.validation.Valid'.(æ¤ñ÷úÿÿÿÿ8—Â€éö1

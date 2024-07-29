@@ -1,0 +1,9 @@
+
+R
+java:S3740‡"/Provide the parametrized type for this generic.(ΙμΓϋÿÿÿÿ8Χκρφ1
+G	java:S106>"+Replace this use of System.out by a logger.(Δ‹ξι8λρφ1
+]	java:S125="<This block of commented-out lines of code should be removed.(Μ•½‡ϋÿÿÿÿ8λρφ1
+^
+java:S3457z"AFormat specifiers should be used instead of string concatenation.(¨γ³8–λρφ1
+I
+java:S1168"+Return an empty collection instead of null.(¥Ήο8›λρφ1

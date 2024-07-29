@@ -1,0 +1,11 @@
+
+Q
+java:S3740%"/Provide the parametrized type for this generic.(ó¡ÈÖÿÿÿÿÿ8§ÃŠéö1
+Q
+java:S1128"4Remove this unused import 'org.nucleus.dto.CityDTO'.(¸”Å8€¸·ƒ÷1
+W
+java:S1128"5Remove this unused import 'org.nucleus.dto.StateDTO'.(œ¬À¬ûÿÿÿÿ8€¸·ƒ÷1
+b
+java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8–û·ƒ÷1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8€¸·ƒ÷1

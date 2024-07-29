@@ -1,0 +1,22 @@
+
+L
+java:S3740("/Provide the parametrized type for this generic.(‚œ˜›8’æ¯‹÷1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8œé¯‹÷1
+X
+java:S1117D";Rename "session" which hides the field declared at line 32.(ïî­½8¸é¯‹÷1
+F	java:S106s"+Replace this use of System.out by a logger.(»µßz8Çé¯‹÷1
+G	java:S106u"+Replace this use of System.out by a logger.(¨–Ù8Èé¯‹÷1
+I
+java:S1168Š"+Return an empty collection instead of null.(¥¹ï8Îé¯‹÷1
+I
+java:S1168™"+Return an empty collection instead of null.(¥¹ï8Öé¯‹÷1
+I
+java:S1168¨"+Return an empty collection instead of null.(¥¹ï8İé¯‹÷1
+Y
+java:S1117¼";Rename "session" which hides the field declared at line 32.(ïî­½8ãé¯‹÷1
+_
+java:S1611½"<Remove the parentheses around the "loanAccountDTO" parameter(ÃÌÑ„ıÿÿÿÿ8äé¯‹÷1
+H	java:S106Ü"+Replace this use of System.out by a logger.(ú£şµ8ğé¯‹÷1
+g
+java:S1128"ERemove this unused import 'org.nucleus.entity.permanent.LoanClosure'.(½°£¸şÿÿÿÿ8óé¯‹÷1

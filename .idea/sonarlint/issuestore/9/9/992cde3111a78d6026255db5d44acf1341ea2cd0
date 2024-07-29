@@ -1,0 +1,17 @@
+
+c
+java:S1192F"FDefine a constant instead of duplicating this literal "FIXED" 3 times.(ÌÌ™Ì8æ¤üéö1
+k
+java:S2259~"IA "NullPointerException" could be thrown; "loanProduct" is nullable here.(Óµ§°ÿÿÿÿÿ8ãÿşéö1
+o
+java:S2259y"MA "NullPointerException" could be thrown; "loanApplication" is nullable here.(Ø…©¨ÿÿÿÿÿ8äÿşéö1
+H
+java:S1168X"+Return an empty collection instead of null.(¥¹ï8²å”äö1
+^	java:S125²"<This block of commented-out lines of code should be removed.(ÁÜö‘ÿÿÿÿÿ8¸å”äö1
+^	java:S125´"<This block of commented-out lines of code should be removed.(„Ïæãøÿÿÿÿ8¸å”äö1
+`
+java:S1128"CRemove this unused import 'org.nucleus.dao.LoanApplicationDAOImpl'.(—éûˆ8ğ½Õéö1
+\
+java:S1128"?Remove this unused import 'org.nucleus.dto.RepaymentPolicyDTO'.(áÛ¢ä8ğ½Õéö1
+`
+java:S1128"DRemove this unused import 'org.nucleus.utility.enums.RepaymentType'.(şÂ×g8ñ½Õéö1

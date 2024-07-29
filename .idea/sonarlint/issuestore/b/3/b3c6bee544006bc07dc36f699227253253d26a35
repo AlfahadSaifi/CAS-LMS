@@ -1,0 +1,36 @@
+
+c
+java:S1192}"GDefine a constant instead of duplicating this literal "cancel" 3 times.(ê¼,8¯ ñ…ø1
+€
+java:S1192…"bDefine a constant instead of duplicating this literal "redirect:/maker/charge-definition" 7 times.(Ãñ‹É8± ñ…ø1
+c
+java:S1192_"FDefine a constant instead of duplicating this literal "error" 3 times.(†«œ¢8³ ñ…ø1
+w
+java:S1192‹"TDefine a constant instead of duplicating this literal "chargeDefinitionDTO" 3 times.(’½Îªÿÿÿÿÿ8´ ñ…ø1
+s
+java:S1192O"QDefine a constant instead of duplicating this literal "chargeDefinition" 7 times.(‰ûùíüÿÿÿÿ8µ ñ…ø1
+y
+java:S1192A"\Define a constant instead of duplicating this literal "chargeDefinitionAmountError" 4 times.(¥‰ÅÜ8¶ ñ…ø1
+r
+java:S1192;"UDefine a constant instead of duplicating this literal "messageDeleteRequest" 3 times.(ÿ¿æ¸8¶ ñ…ø1
+m
+java:S1192>"PDefine a constant instead of duplicating this literal "chargeNameError" 4 times.(á¦¥¿8¿ ñ…ø1
+u
+java:S11928"SDefine a constant instead of duplicating this literal "messageWhileUpdate" 3 times.(»ÏÊŠúÿÿÿÿ8Â ñ…ø1
+Z
+java:S2589¢"7Remove this expression which always evaluates to "true"(¦Ý…ðùÿÿÿÿ8†¢ñ…ø1
+U
+java:S2589é"7Remove this expression which always evaluates to "true"(ŠÇ«Ö8‡¢ñ…ø1
+]	java:S125"<This block of commented-out lines of code should be removed.(ÇžÀØúÿÿÿÿ8¢ñ…ø1
+_
+java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄÞ8¢ñ…ø1
+_
+java:S6813#"BRemove this field injection and use constructor injection instead.(êæÄÞ8¢ñ…ø1
+_
+java:S6813&"BRemove this field injection and use constructor injection instead.(êæÄÞ8‘¢ñ…ø1
+\
+java:S40340":Replace this negation and "anyMatch()" with "noneMatch()".(§¡³Úùÿÿÿÿ8¡¢ñ…ø1
+t
+java:S3776J"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(žƒœ²ÿÿÿÿÿ8¸¢ñ…ø1
+Y	java:S125¡"<This block of commented-out lines of code should be removed.(³Ÿ ±8Ú¢ñ…ø1
+Y	java:S125è"<This block of commented-out lines of code should be removed.(Î™òÆ8ü¢ñ…ø1

@@ -1,0 +1,24 @@
+
+d
+java:S1192\"HDefine a constant instead of duplicating this literal "message" 8 times.(£Âë8Ğš÷1
+l
+java:S1192E"JDefine a constant instead of duplicating this literal "city-form" 5 times.(“‘éªûÿÿÿÿ8Ğš÷1
+…
+java:S1488;"cImmediately return this expression instead of assigning it to the temporary variable "countryDTOS".(ÍĞ”üùÿÿÿÿ8’Ğš÷1
+d
+java:S2259¡"FA "NullPointerException" could be thrown; "permCity" is nullable here.( Ü¯ÿ8­Ñš÷1
+‡
+java:S6833"eReplace the "@Controller" annotation by "@RestController" and remove all "@ResponseBody" annotations.(íœ¡ñùÿÿÿÿ8±Ñš÷1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8³Ñš÷1
+_
+java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8³Ñš÷1
+_
+java:S6813#"BRemove this field injection and use constructor injection instead.(êæÄŞ8³Ñš÷1
+_
+java:S6813%"BRemove this field injection and use constructor injection instead.(êæÄŞ8´Ñš÷1
+]	java:S125+"<This block of commented-out lines of code should be removed.(ï¢†°şÿÿÿÿ8ÅÑš÷1
+t
+java:S3776J"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ä½§‡şÿÿÿÿ8·Òš÷1
+W
+java:S1128"5Remove this unused import 'org.nucleus.dto.StateDTO'.(œ¬À¬ûÿÿÿÿ8Ê€÷1

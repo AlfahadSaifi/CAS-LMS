@@ -1,0 +1,34 @@
+
+F
+java:S3740ˆ"/Provide the parametrized type for this generic.(³ç¿
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813 "BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813#"BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813&"BRemove this field injection and use constructor injection instead.(êæÄŞ
+T
+java:S18545"9Remove this useless assignment to local variable "state".(™›„Õúÿÿÿÿ
+E	java:S106:"+Replace this use of System.out by a logger.(ø³öÿÿÿÿÿ
+E	java:S106K"+Replace this use of System.out by a logger.(¡Ëôşÿÿÿÿ
+U
+java:S1854ƒ"9Remove this useless assignment to local variable "state".(ÉˆÖÛÿÿÿÿÿ
+U
+java:S1854‚"9Remove this useless assignment to local variable "state".(™›„Õúÿÿÿÿ
+A	java:S106€"+Replace this use of System.out by a logger.(ö¡¹ê
+F
+java:S1481‚"*Remove this unused "state" local variable.(™›„Õúÿÿÿÿ
+B
+java:S1168"+Return an empty collection instead of null.(¥¹ï
+B
+java:S1168¢"+Return an empty collection instead of null.(¥¹ï
+>
+java:S1905¦"'Remove this unnecessary cast to "List".(ª…Ô
+Y
+java:S1854Ã"=Remove this useless assignment to local variable "stateDTO2".(«È¼Œøÿÿÿÿ

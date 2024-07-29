@@ -1,0 +1,9 @@
+
+r
+java:S1206#"PThis class overrides "equals()" and should therefore also override "hashCode()".(İ¢êÍıÿÿÿÿ8ÎÕÃ¸õ1
+Z
+java:S1128"=Remove this unused import 'org.nucleus.entity.meta.MetaData'.(Ãäë§8½ˆ¡óô1
+v
+java:S1128"TRemove this unused import 'org.nucleus.entity.permanent.EligibilityPolicyParameter'.(Í§£Ôùÿÿÿÿ8¿ˆ¡óô1
+K
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8ÚÕÃ¸õ1

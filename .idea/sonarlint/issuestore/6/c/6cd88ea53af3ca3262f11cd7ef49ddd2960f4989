@@ -1,0 +1,23 @@
+
+h
+java:S1192Y"MDefine a constant instead of duplicating this literal "operatorList" 5 times.(ÇÝàÒøÿÿÿÿ
+c
+java:S1192Þ"MDefine a constant instead of duplicating this literal "errorMessage" 8 times.(•¸ø
+a
+java:S11922"FDefine a constant instead of duplicating this literal "false" 3 times.(ßó§Äÿÿÿÿÿ
+l
+java:S1192d"VDefine a constant instead of duplicating this literal "chargePolicyParameter" 3 times.(»‰¹Í
+\
+java:S1192ã"FDefine a constant instead of duplicating this literal "error" 4 times.(ëÜà
+c
+java:S1192b"MDefine a constant instead of duplicating this literal "chargePolicy" 7 times.(û®žû
+c
+java:S1192Z"HDefine a constant instead of duplicating this literal "charges" 5 times.(€‘«ºüÿÿÿÿ
+f
+java:S1192ä"ODefine a constant instead of duplicating this literal "Error occurred" 4 times.(ÚÖÚæ
+n
+java:S1192m"SDefine a constant instead of duplicating this literal "charge-policy-form" 6 times.(ÊÑË“þÿÿÿÿ
+m
+java:S3776q"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(Å×«¬ûÿÿÿÿ
+â
+java:S6541q"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 118 to 64, Complexity from 18 to 14, Nesting Level from 3 to 2, Number of Variables from 24 to 6.(Å×«¬ûÿÿÿÿ

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2024-05-17T09:36:03 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Receipt" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4802a5c2-1152-4585-99e2-9ccc02a76a82">
+    <property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+    <field name="loanAccountNumber" class="java.lang.String"/>
+    <field name="receiptId" class="java.lang.Long"/>
+    <field name="receivedfrom" class="java.lang.String"/>
+    <field name="receiptbasis" class="java.lang.Enum"/>
+    <field name="paymentMode" class="java.lang.Enum"/>
+    <field name="transactionDate" class="java.sql.Date"/>
+    <field name="transactionAmount" class="java.lang.Double"/>
+    <field name="dateOfReceipt" class="java.sql.Date"/>
+    <field name="instrumentNumber" class="java.lang.String"/>
+    <field name="instrumentDate" class="java.sql.Date"/>
+    <field name="bankName" class="java.lang.String"/>
+    <field name="tempMetaData.authorizedBy" class="java.lang.String"/>
+    <background>
+        <band splitType="Stretch"/>
+    </background>
+    <title>
+        <band height="79" splitType="Stretch"/>
+    </title>
+    <pageHeader>
+        <band height="42" splitType="Stretch">
+            <staticText>
+                <reportElement x="140" y="-57" width="271" height="41" uuid="70186c4a-e028-4f82-b26a-2b2b5c9b4d98"/>
+                <textElement>
+                    <font size="18" isBold="true"/>
+                </textElement>
+                <text><![CDATA[                    Receipt]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="325" y="12" width="120" height="30" uuid="b7266249-f2ce-4943-91e1-5635e23eb2f9"/>
+                <textElement>
+                    <font isBold="true"/>
+                </textElement>
+                <text><![CDATA[ReceiptRef#/Receipt No:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="444" y="12" width="90" height="30" uuid="c90b9eb7-4c10-41a0-97df-9ad6f4cb3a66"/>
+                <textFieldExpression><![CDATA[$F{receiptId}]]></textFieldExpression>
+            </textField>
+        </band>
+    </pageHeader>
+    <columnHeader>
+        <band height="59" splitType="Stretch">
+            <staticText>
+                <reportElement x="310" y="29" width="10" height="20" uuid="940a0f9c-878b-4ab9-9f77-6c0735373c49"/>
+                <textElement verticalAlignment="Bottom"/>
+                <text><![CDATA[in]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="320" y="29" width="40" height="20" uuid="d239fab8-5989-4178-80cd-0867749deada"/>
+                <textElement textAlignment="Center" verticalAlignment="Bottom"/>
+                <textFieldExpression><![CDATA[$F{paymentMode}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="360" y="29" width="110" height="20" uuid="a17a71cd-2836-434c-b09c-bda96d8d8f2e"/>
+                <textElement verticalAlignment="Bottom">
+                    <font size="11"/>
+                </textElement>
+                <text><![CDATA[towards the following]]></text>
+            </staticText>
+        </band>
+    </columnHeader>
+    <detail>
+        <band height="370" splitType="Stretch">
+            <staticText>
+                <reportElement x="79" y="-30" width="200" height="20" uuid="226850cc-9af1-4d89-9772-211c22868718"/>
+                <textElement verticalAlignment="Bottom">
+                    <font size="11"/>
+                </textElement>
+                <text><![CDATA[Received with thanks the amount of Rs.]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="272" y="-30" width="31" height="20" uuid="5376f0ce-9ae6-441b-b132-48375c36b531"/>
+                <textElement textAlignment="Center" verticalAlignment="Bottom"/>
+                <textFieldExpression><![CDATA[$F{transactionAmount}]]></textFieldExpression>
+            </textField>
+            <line>
+                <reportElement x="100" y="32" width="1" height="197" uuid="fbdd9949-a0e9-4410-a3b4-25451777c396"/>
+            </line>
+            <line>
+                <reportElement x="250" y="33" width="1" height="195" uuid="81ea013f-cf52-4f87-a159-99cee7ab8416"/>
+            </line>
+            <line>
+                <reportElement x="441" y="32" width="1" height="197" uuid="89b2c827-6aba-4ce6-ba2a-fe8b9727d6ae"/>
+            </line>
+            <line>
+                <reportElement x="100" y="228" width="341" height="1" uuid="59c17f6b-da51-4954-b17c-a5b5301d2661"/>
+            </line>
+            <line>
+                <reportElement x="100" y="74" width="340" height="1" uuid="6a062b6f-91c6-4f02-822c-923a574b099c"/>
+            </line>
+            <line>
+                <reportElement x="101" y="97" width="340" height="1" uuid="392fad01-7654-4d0d-94e7-82f5dadeb8b3"/>
+            </line>
+            <line>
+                <reportElement x="101" y="120" width="340" height="1" uuid="0dab3f42-d782-491f-b982-edc01de66d4d"/>
+            </line>
+            <line>
+                <reportElement x="101" y="142" width="340" height="1" uuid="448470d0-1a79-49e5-ba6c-882f3be5016c"/>
+            </line>
+            <line>
+                <reportElement x="101" y="160" width="340" height="1" uuid="395fde78-3903-45bf-a637-a199a44afd30"/>
+            </line>
+            <line>
+                <reportElement x="101" y="207" width="340" height="1" uuid="74ed59f5-bf2a-4b2f-91ca-38bfd1e11586"/>
+            </line>
+            <line>
+                <reportElement x="101" y="182" width="340" height="1" uuid="8a6ded34-9cb4-49ca-af1c-e8edfceec234"/>
+            </line>
+            <line>
+                <reportElement x="100" y="52" width="340" height="1" uuid="855a7497-e2a5-4db1-8321-003e34b46d2c"/>
+            </line>
+            <line>
+                <reportElement x="100" y="32" width="340" height="1" uuid="bbc3707b-8507-4b77-a0aa-074fb21d0200"/>
+            </line>
+            <staticText>
+                <reportElement x="110" y="31" width="120" height="21" uuid="3f8d264c-be3e-41b4-abb7-38113e7c3df9"/>
+                <textElement verticalAlignment="Bottom">
+                    <font size="13" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Account no.]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="109" y="51" width="120" height="21" uuid="59f2a526-90f9-4c72-83d5-4f44bae3262c"/>
+                <textElement verticalAlignment="Bottom">
+                    <font size="13" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Receipt Basis]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="109" y="75" width="120" height="21" uuid="308cf2b8-4a59-40d6-9c8c-4a0f4c16ef94"/>
+                <textElement verticalAlignment="Bottom">
+                    <font size="13" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Receipt Mode]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="108" y="97" width="120" height="21" uuid="9f08f2d7-ef48-407c-9fb9-c9e4620c9b2e"/>
+                <textElement verticalAlignment="Bottom">
+                    <font size="13" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Transaction Date]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="109" y="119" width="120" height="21" uuid="9982e3fa-149a-48aa-a2ab-726edec036c7"/>
+                <textElement verticalAlignment="Bottom">
+                    <font size="13" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Transaction Amount]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="109" y="138" width="120" height="21" uuid="1f2c64f4-e997-421b-ac61-a380dc4f4231"/>
+                <textElement verticalAlignment="Bottom">
+                    <font size="13" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Date of Receipt ]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="109" y="158" width="120" height="21" uuid="47809463-33d4-459c-8cf3-523097dfb51a"/>
+                <textElement verticalAlignment="Bottom">
+                    <font size="13" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Instrument Number]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="109" y="181" width="120" height="21" uuid="06c77e42-fad9-429c-9973-ba8d4c107dfc"/>
+                <textElement verticalAlignment="Bottom">
+                    <font size="13" isBold="true"/>
+                </textElement>
+                <text><![CDATA[InsrumentDate]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="109" y="203" width="120" height="21" uuid="0677116d-8827-4cdc-b286-36eeb50f732b"/>
+                <textElement verticalAlignment="Bottom">
+                    <font size="13" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Branch]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="251" y="32" width="100" height="19" uuid="df0afd38-dc7e-492e-9c59-42b63783f017"/>
+                <textElement textAlignment="Left" verticalAlignment="Bottom"/>
+                <textFieldExpression><![CDATA[$F{loanAccountNumber}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="251" y="53" width="100" height="21" uuid="2924735e-c5d1-474b-a840-ab76a3399009"/>
+                <textElement textAlignment="Left" verticalAlignment="Bottom"/>
+                <textFieldExpression><![CDATA[$F{receiptbasis}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="251" y="76" width="100" height="21" uuid="aaaed7d4-7d86-48ee-8810-25bae7f1da8f"/>
+                <textElement textAlignment="Left" verticalAlignment="Bottom"/>
+                <textFieldExpression><![CDATA[$F{paymentMode} == null ? "" : $F{paymentMode}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="251" y="99" width="100" height="21" uuid="7ded3065-a27e-41b8-b1fe-8e22f4a6ca22"/>
+                <textElement textAlignment="Left" verticalAlignment="Bottom"/>
+                <textFieldExpression><![CDATA[$F{transactionDate} == null ? "" : new SimpleDateFormat("yyyy-MM-dd").format($F{transactionDate})]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="250" y="121" width="100" height="21" uuid="49f812ac-1164-4321-8985-196948196a6a"/>
+                <textElement textAlignment="Left" verticalAlignment="Bottom"/>
+                <textFieldExpression><![CDATA[$F{transactionAmount} == null ? "" : $F{transactionAmount}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="251" y="143" width="100" height="17" uuid="ffa630fd-2399-4674-b371-97c5abeb8944"/>
+                <textElement textAlignment="Left" verticalAlignment="Bottom"/>
+                <textFieldExpression><![CDATA[$F{dateOfReceipt} == null ? "" : new SimpleDateFormat("yyyy-MM-dd").format($F{dateOfReceipt})]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="251" y="161" width="100" height="21" uuid="3c1254ae-fe81-4a38-93d3-df4d08054dec"/>
+                <textElement textAlignment="Left" verticalAlignment="Bottom"/>
+                <textFieldExpression><![CDATA[$F{instrumentNumber} == null ? "" : $F{instrumentNumber}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="251" y="186" width="100" height="21" uuid="2fb7124c-3355-4be8-97c9-3f00813083a4"/>
+                <textElement textAlignment="Left" verticalAlignment="Bottom"/>
+                <textFieldExpression><![CDATA[$F{instrumentDate} == null ? "" : new SimpleDateFormat("yyyy-MM-dd").format($F{instrumentDate})]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="250" y="208" width="100" height="19" uuid="d74473cd-590a-4f0c-acf8-4648e6bb363c"/>
+                <textElement textAlignment="Left" verticalAlignment="Bottom"/>
+                <textFieldExpression><![CDATA[$F{bankName} == null ? "" : $F{bankName}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="49" y="294" width="140" height="20" uuid="4134b5cd-d81f-4641-b25f-9c74ffb476ff"/>
+                <textElement>
+                    <font size="10"/>
+                </textElement>
+                <text><![CDATA[For Nucleus BankLtd.]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="49" y="315" width="160" height="24" uuid="96f053a2-f348-4c92-be85-11efdbab858b"/>
+                <text><![CDATA[Retail Assests & Strateigic Aliances]]></text>
+            </staticText>
+        </band>
+    </detail>
+</jasperReport>

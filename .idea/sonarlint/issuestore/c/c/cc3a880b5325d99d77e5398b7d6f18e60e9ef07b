@@ -1,0 +1,12 @@
+
+}
+java:S1192&"[Define a constant instead of duplicating this literal "early-closure-checker-dash" 4 times.(­õöúÿÿÿÿ8©…Ô‹÷1
+L	java:S106K"+Replace this use of System.out by a logger.(±²àÿÿÿÿÿ8Ë…Ô‹÷1
+G	java:S106O"+Replace this use of System.out by a logger.(Ï‹8Ë…Ô‹÷1
+L	java:S106U"+Replace this use of System.out by a logger.(ãúïúÿÿÿÿ8Ì…Ô‹÷1
+L	java:S106W"+Replace this use of System.out by a logger.(Ù§œåûÿÿÿÿ8Í…Ô‹÷1
+L	java:S106["+Replace this use of System.out by a logger.(´Ÿ¯Áøÿÿÿÿ8Í…Ô‹÷1
+X	java:S125]"<This block of commented-out lines of code should be removed.(èŒÊ8Î…Ô‹÷1
+G	java:S106`"+Replace this use of System.out by a logger.(äÜõ›8Ğ…Ô‹÷1
+[
+java:S1128"9Remove this unused import 'org.springframework.ui.Model'.(ê†ıÿÿÿÿ8Ñ…Ô‹÷1

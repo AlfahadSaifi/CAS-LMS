@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <style>
+        /* Custom colors */
+        :root {
+            --primary-color: #F3F4F6; /* Light Gray */
+            --secondary-color: #6B7280; /* Gray */
+            --bg-color: #FFFFFF; /* White */
+            --text-color: #111827; /* Dark Gray */
+            --accent-color: #3B82F6; /* Blue */
+            --hover-color: #4B5563; /* Dark Gray */
+        }
+
+        body {
+            min-height: 100vh;
+            min-height: -webkit-fill-available;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+        }
+
+        .sidebar {
+            width: 280px;
+            padding: 20px;
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: width 0.3s;
+        }
+
+        .sidebar:hover {
+            width: 300px;
+        }
+
+        .btn-toggle {
+            background-color: transparent;
+            color: var(--text-color);
+            border: none;
+            padding: 12px 20px;
+            margin: 5px 0;
+            font-size: 18px;
+            font-weight: 500;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+            border-radius: 20px;
+        }
+
+        .btn-toggle::before {
+            content: "\25B8"; /* Arrow symbol */
+            margin-right: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .btn-toggle[aria-expanded="true"]::before {
+            transform: rotate(90deg);
+        }
+
+        .btn-toggle:hover,
+        .btn-toggle:focus {
+            background-color: var(--secondary-color);
+            color: var(--hover-color);
+            transform: scale(1.1);
+        }
+
+        .collapse {
+            background-color: var(--bg-color);
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+            transition: max-height 0.3s ease-out;
+            max-height: 0;
+            overflow: hidden;
+        }
+
+        .collapse.show {
+            max-height: 200px; /* Adjust as needed */
+            overflow: auto;
+        }
+
+        .btn-toggle-nav li a {
+            color: var(--text-color);
+            transition: color 0.3s;
+            display: block;
+            padding: 10px 20px;
+            border-bottom: 1px solid #dee2e6;
+            border-radius: 15px;
+        }
+
+        .btn-toggle-nav li a:hover {
+            background-color: var(--primary-color);
+            color: var(--accent-color);
+            transform: scale(1.05);
+        }
+
+        .btn-toggle.active,
+        .btn-toggle.active::before {
+            color: var(--accent-color) !important;
+        }
+    </style>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get all buttons that toggle a collapse element
+            var collapseBtns = document.querySelectorAll('[data-bs-toggle="collapse"]');
+
+            // Loop through each collapse button
+            collapseBtns.forEach(function (btn) {
+                // Add event listener for button click
+                btn.addEventListener("click", function () {
+                    // Get the target collapse element ID from the button's data attribute
+                    var targetId = btn.getAttribute("data-bs-target");
+
+                    // Get the collapse element by ID
+                    var targetCollapse = document.querySelector(targetId);
+
+                    // Get all collapse elements
+                    var allCollapses = document.querySelectorAll('.collapse');
+
+                    // Loop through all collapse elements
+                    allCollapses.forEach(function (collapse) {
+                        // Check if the collapse is not the target collapse
+                        if (collapse !== targetCollapse) {
+                            // Close the collapse element
+                            collapse.classList.remove("show");
+                            // Set aria-expanded attribute to false for accessibility
+                            document.querySelector('[data-bs-target="#' + collapse.id + '"]').setAttribute("aria-expanded", "false");
+                        }
+                    });
+
+                    // Toggle the target collapse element's display
+                    if (targetCollapse.classList.contains("show")) {
+                        // If collapse element is currently shown, hide it
+                        targetCollapse.classList.remove("show");
+                        // Set aria-expanded attribute to false for accessibility
+                        btn.setAttribute("aria-expanded", "false");
+                    } else {
+                        // If collapse element is currently hidden, show it
+                        targetCollapse.classList.add("show");
+                        // Set aria-expanded attribute to true for accessibility
+                        btn.setAttribute("aria-expanded", "true");
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="sidebar">
+    <ul class="list-unstyled ps-0" style="list-style-type:none;">
+        <li class="mb-1">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+                Home
+            </button>
+            <div class="collapse" id="home-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                    </li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Updates</a>
+                    </li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reports</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="mb-1">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                Dashboard
+            </button>
+            <div class="collapse" id="dashboard-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a>
+                    </li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Weekly</a>
+                    </li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Monthly</a>
+                    </li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Annually</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="mb-1">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                Orders
+            </button>
+            <div class="collapse" id="orders-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New</a></li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Processed</a>
+                    </li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shipped</a>
+                    </li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Returned</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="mb-1">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                Account
+            </button>
+            <div class="collapse" id="account-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New...</a>
+                    </li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profile</a>
+                    </li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Settings</a>
+                    </li>
+                    <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sign out</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

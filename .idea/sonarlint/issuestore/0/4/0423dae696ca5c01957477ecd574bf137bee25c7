@@ -1,0 +1,14 @@
+
+e
+java:S3973Ð"GUse indentation to denote the code conditionally executed by this "if".(Ëå¬È8ƒñ§ø1
+X
+java:S2222¯";Unlock this lock along all executions paths of this method.(¤­k8èõ§ø1
+_
+java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄÞ8ìõ§ø1
+{
+java:S2142V"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ö§ø1
+L	java:S106g"+Replace this use of System.out by a logger.(ò©‡³øÿÿÿÿ8•ö§ø1
+I
+java:S1168Ê"+Return an empty collection instead of null.(¥¹ï8¹ö§ø1
+\
+java:S1155Ð">Use isEmpty() to check whether the collection is empty or not.(Ëå¬È8ŽŒ—…ø1

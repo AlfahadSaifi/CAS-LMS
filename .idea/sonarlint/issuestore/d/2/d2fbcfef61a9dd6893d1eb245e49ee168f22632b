@@ -1,0 +1,33 @@
+
+^
+java:S1192Y"HDefine a constant instead of duplicating this literal "message" 3 times.(ºÀ›…
+h
+java:S1192<"RDefine a constant instead of duplicating this literal "eligibilityPolicy" 3 times.(¤Ë¤“
+M
+java:S2629~"7Use the built-in formatting to construct this argument.(¹ÙžÎ
+l
+java:S2259>"VA "NullPointerException" could be thrown; "eligibilityPolicyTempDTO" is nullable here.(‹å×¯
+s
+java:S3753"XAdd a call to "setComplete()" on the SessionStatus object in a "@RequestMapping" method.(ÒŠÅªùÿÿÿÿ
+X
+java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄÞ
+X
+java:S6813#"BRemove this field injection and use constructor injection instead.(êæÄÞ
+X
+java:S6813%"BRemove this field injection and use constructor injection instead.(êæÄÞ
+X
+java:S6813'"BRemove this field injection and use constructor injection instead.(êæÄÞ
+X
+java:S6813)"BRemove this field injection and use constructor injection instead.(êæÄÞ
+W
+java:S3457R"AFormat specifiers should be used instead of string concatenation.(îñÅÎ
+\
+java:S3457S"AFormat specifiers should be used instead of string concatenation.(ì…©àüÿÿÿÿ
+W
+java:S3457V"AFormat specifiers should be used instead of string concatenation.(«™£—
+V
+java:S3457u"AFormat specifiers should be used instead of string concatenation.(ÎÚÇ
+W
+java:S3457~"AFormat specifiers should be used instead of string concatenation.(¹ÙžÎ
+}
+java:S1128"bRemove this unused import 'org.nucleus.entity.temporary.EligibilityPolicyParameterDefinitionTemp'.(ËÇ§‹ÿÿÿÿÿ

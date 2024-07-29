@@ -1,0 +1,18 @@
+
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+X
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
+Q	java:S1250"<This block of commented-out lines of code should be removed.(¶ìÇ°
+`
+java:S1128"ERemove this unused import 'org.nucleus.entity.permanent.LoanAccount'.(«Ó†÷ıÿÿÿÿ
+Y
+java:S1128	"CRemove this unused import 'org.nucleus.utility.enums.RecordStatus'.(¤—øª
+s
+java:S1128"QRemove this unused import 'org.springframework.web.bind.annotation.PathVariable'.(¹ûñÅşÿÿÿÿ8‘Â”çö1
+K
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ

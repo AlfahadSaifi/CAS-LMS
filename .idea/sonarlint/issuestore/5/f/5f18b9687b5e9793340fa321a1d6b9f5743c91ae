@@ -1,0 +1,25 @@
+
+Y
+java:S2589V"7Remove this expression which always evaluates to "true"(¾“ş÷øÿÿÿÿ8Æ¾Î˜ö1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÃùÍ˜ö1
+W	java:S125"<This block of commented-out lines of code should be removed.(º¤8ÈùÍ˜ö1
+]	java:S125"<This block of commented-out lines of code should be removed.(©Ò¹Èûÿÿÿÿ8ÈùÍ˜ö1
+W	java:S125*"<This block of commented-out lines of code should be removed.(º¤8ËùÍ˜ö1
+]	java:S1252"<This block of commented-out lines of code should be removed.(©Ò¹Èûÿÿÿÿ8ËùÍ˜ö1
+W	java:S125="<This block of commented-out lines of code should be removed.(º¤8ÍùÍ˜ö1
+]	java:S125B"<This block of commented-out lines of code should be removed.(©Ò¹Èûÿÿÿÿ8ÎùÍ˜ö1
+W	java:S125N"<This block of commented-out lines of code should be removed.(º¤8ÏùÍ˜ö1
+]	java:S125Q"<This block of commented-out lines of code should be removed.(©Ò¹Èûÿÿÿÿ8ĞùÍ˜ö1
+`
+java:S1155V">Use isEmpty() to check whether the collection is empty or not.(¾“ş÷øÿÿÿÿ8ÒùÍ˜ö1
+W	java:S125i"<This block of commented-out lines of code should be removed.(º¤8ÔùÍ˜ö1
+W	java:S125v"<This block of commented-out lines of code should be removed.(º¤8¢¨Û˜ö1
+`
+java:S1155x">Use isEmpty() to check whether the collection is empty or not.(¾“ş÷øÿÿÿÿ8£¨Û˜ö1
+I
+java:S1168€"+Return an empty collection instead of null.(¥¹ï8á¶Ù˜ö1
+I
+java:S1168‚"+Return an empty collection instead of null.(¥¹ï8á¶Ù˜ö1
+P
+java:S1128"4Remove this unused import 'org.apache.log4j.Logger'.(ñè½8Åş¿æö1

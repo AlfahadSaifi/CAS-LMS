@@ -1,0 +1,6 @@
+
+l
+java:S1192Y"VDefine a constant instead of duplicating this literal "loan_product_new_form" 3 times.(­ÆÂ”
+L	java:S106o"+Replace this use of System.out by a logger.(ºü€øÿÿÿÿ8Ş›×¶õ1
+\
+java:S1128"ARemove this unused import 'org.nucleus.dto.EligibilityPolicyDTO'.(¶‡’ıÿÿÿÿ

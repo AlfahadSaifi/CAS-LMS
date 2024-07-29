@@ -1,0 +1,13 @@
+
+H
+java:S11687"+Return an empty collection instead of null.(¥¹ï8¦ÀÀåö1
+^
+java:S1854E"<Remove this useless assignment to local variable "sqlDate2".(Ì Óàşÿÿÿÿ8§ÀÀåö1
+O
+java:S1481E"-Remove this unused "sqlDate2" local variable.(Ì Óàşÿÿÿÿ8©ÀÀåö1
+a
+java:S1128"ERemove this unused import 'org.nucleus.dao.ReceivablePayableTempDao'.(±Ã±8ò»Õéö1
+]
+java:S1128";Remove this unused import 'org.nucleus.dto.LoanAccountDTO'.(œ”‰øÿÿÿÿ8ò»Õéö1
+m
+java:S1128"KRemove this unused import 'org.nucleus.entity.permanent.ReceivablePayable'.(’äİ–ûÿÿÿÿ8ò»Õéö1
